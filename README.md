@@ -1,16 +1,22 @@
 # meuappflutter
 
-A new Flutter project.
+Iniciado um novo projeto Flutter.
 
-## Getting Started
+## Comandos utilizados no terminal:
 
-This project is a starting point for a Flutter application.
+### Clonar repositório do git: 
+  > git clone repositorio_url
 
-A few resources to get you started if this is your first Flutter project:
+### Criar projeto flutter 
+> flutter create -t app --org com.thainaracarvalho.app -a kotlin -i swift .
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### subir para o git
+> git add .
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> git commit -m "Commit inicial"
+
+> git config user.email "emailuser"
+
+> git config user.name "username"
+
+> git push -u origin main
